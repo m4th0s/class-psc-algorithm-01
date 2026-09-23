@@ -5,7 +5,7 @@ public class Revisao03 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Quantas amizades você fez? ");
+        System.out.print("Quantas amizades você fez Riley? ");
         int amizades = sc.nextInt();
 
         System.out.print("Digite a primeira nota da A1: ");
@@ -17,7 +17,7 @@ public class Revisao03 {
         System.out.print("Digite a terceira nota da A3: ");
         double a3 = sc.nextDouble();
 
-        System.out.print("Quantos exercícios você realizou? ");
+        System.out.print("Quantos algoritmos você realizou? ");
 
         int exerciciosRealizados = sc.nextInt();
 
