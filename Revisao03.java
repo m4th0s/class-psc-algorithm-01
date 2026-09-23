@@ -5,19 +5,20 @@ public class Revisao03 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Quantas amizades você fez? ");
+        System.out.print("Quantas amizades você fez? ");
         int amizades = sc.nextInt();
 
-        System.out.println("Digite a primeira nota: ");
+        System.out.print("Digite a primeira nota da A1: ");
         double a1 = sc.nextDouble();
 
-        System.out.println("Digite a segunda nota: ");
+        System.out.print("Digite a segunda nota da A2: ");
         double a2 = sc.nextDouble();
 
-        System.out.println("Digite a terceira nota: ");
+        System.out.print("Digite a terceira nota da A3: ");
         double a3 = sc.nextDouble();
 
-        System.out.println("Quantos exercícios você realizou? ");
+        System.out.print("Quantos exercícios você realizou? ");
+
         int exerciciosRealizados = sc.nextInt();
 
         int pontosAlegria = 0;
@@ -38,7 +39,7 @@ public class Revisao03 {
         }
 
         
-        pontosAlegria += exerciciosRealizados * 10;
+        pontosAlegria += (exerciciosRealizados) * 10;
         pontosTristeza += (10 - exerciciosRealizados) * 10;
 
         if (pontosAlegria > pontosTristeza) {
